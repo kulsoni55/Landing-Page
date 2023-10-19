@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    position: relative;
+    top:0px;
+    left: 0px;
+    align-items: center;
+}
+/* navbar background  */
+.navbar::before{
+    background-color: #c77e76e0;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    content: "";
+    z-index:-1;
+}
+/* logo here  */
+#logo img{
+    height: 70px;
+    width: 100px;
+    /* padding: 2px; */
+    opacity: 0.5;
+    background-color: #dde3d7;
+}
+/* navigation here */
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    padding: 10px 25px;
+    margin: 0px 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #32172e;
+    
+}
+ul li a:hover{
+    background-color: #6a3c37;
+    font-weight: bold;
+    color: azure;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-shadow: 2px 1px azure;
+    font-size: 1.9rem;
+}
+/* navbar button  */
+#lsbtn{
+    position: absolute;
+    right: 10px;
+}
+#lsbtn button{
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: none;
+    height: 100%;
+    background-color: #edd3ac;
+    padding: 10px 15px;
+    color: rgb(163 120 103 / 86%);
+    margin: 2px 5px;
+    border-radius: 15px;
+}
+#lsbtn button:hover{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: azure;
+
+}
+/* section here  */
+#home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 539px;
+}
+/* section items  */
+#home::before{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJgAFomR8MIJbZjqBmY9phnyn5oHovENFoMg&usqp=CAU') no-repeat center center/cover;
+    opacity: 0.89;
+    height: 608px;
+    width: 100%;
+    position:absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    z-index: -5;    
+}
+.bo{
+    border: 5px solid white;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    width: 54%;
+    justify-content: center;
+    align-items: center;
+}
+.home-bo-h{
+    color: #e4cb2cfa;
+}
+.bo::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #76602da6;
+    opacity:0.5 ;
+}
+p{
+    font-size: 1.2rem;
+    padding: 5px 20px;
+    color:whitesmoke;
+    font-weight: 500;
+}
+button[class='sfi']{
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    margin: 15px 20px;
+    color: #cbe9e5db;
+    font-size: 1.1rem;
+    background-color:#957c347a;
+    border-radius: 10px;
+}
+button[class='sfi']:hover{
+    color: azure;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-shadow: 2px 1px azure;
+    font-size: 1.9rem;
+    
+}
+/* section our hunger killer  */
+.section-i{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    /* margin: 5px;
+    border: 4px solid #995540; */
+    /* background-color: #76685978; */
+    /* border-radius: 23px; */
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items .items{
+    border: 5px solid #d8dbad;
+    margin: 5px 10px;
+    background-color: gray;
+    border-radius: 23px;
+}
+.nav-items-img{
+    display: block;
+    width: 275px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 5px auto;
+}
+.nav-items-h{
+    color: rgb(94, 94, 85);
+}
+.nav-items-para{
+    padding:10px 20px;
+}
+
+/* contacts  */
+.contact{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+.contact::before{
+    position:absolute;
+    content: "";
+    z-index: -1;
+    width:100%;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3mPGVAIWavEINuQDMCroCi9ZHvKW_hFNEQ&usqp=CAU/') no-repeat center center/cover;
+    opacity: 0.71;
+    height: 300px;/
+}
+.contact-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contimg{
+    width: 200px;
+    border-radius: 15px;
+    margin: 15px 20px;
+}
+
+/* register with us  */
+#rwu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    flex-direction: column;
+}
+#rwu::before{
+    position: absolute;
+    background: url('https://t4.ftcdn.net/jpg/05/08/80/19/360_F_508801991_UTsCAOorx25USitqonfRADueJlzyjhDq.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    content: "";
+}
+#rwu-form{
+    display:block;
+    height: 70%;
+    width: 70%;
+    flex-direction: column;
+
+}
+#rwu-form label{
+    font-size: 1.5rem;
+    color: #dce3f5;
+    font-weight: bold;
+}
+#rwu-form input, textarea{
+    width: 55%;
+    height: 35px;
+    border-radius: 10px;
+    padding: 11px;
+    border: none        ;
+    font-weight: bol;
+}
+.rwu-form-in{
+    margin:28px 60px;
+    padding: 5px;
+}
+/* footer here  */
+footer{
+    background-color: #8d7471e6;
+    /* height: 50px; */
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #123635;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* utility tools  */
+.h-primary{
+    color: rgb(94, 94, 85);
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Libre Baskerville;
+    padding: 5px 10px;
+    margin: 2px 1px;
+}
+hr{
+    margin: 5px 20px;
+    height: 2px;
+}
+.h-secondary{
+    font-size: 1.8rem;
+    font-family: Libre Baskerville;
+    font-weight: bold;
+    padding: 4px 7px;
+    color: #6a3c37;
+    margin: 2px 1px;
+}
+.center{
+    text-align: center;
+}

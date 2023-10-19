@@ -1,0 +1,136 @@
+/* navigation  */
+.navbar{
+    flex-direction: column;
+}
+ul{
+    flex-direction: column;
+}
+ul li{
+    padding: 3px 10px;
+}
+ul li a{
+    font-size: 1.1rem;
+    color: antiquewhite;
+}
+ul li a:hover{
+    font-size: 1.4erm;
+    text-shadow: none;
+    color: aquamarine;
+}
+#lsbtn{
+    display: none;
+}
+/* home  */
+#home{
+    height:434px;
+}
+#height::before{
+    height: 600px;
+}
+.bo{
+    width: 80%;
+}
+p{
+    font-size: 0.9rem;
+    padding: 3px 7px;
+}
+button[class='sfi']{
+    padding: 6px 7px;
+    margin: 7px 10px;
+    color: #cbe9e5db;
+    font-size: 0.9rem;
+    background-color:#957c347a;
+    border-radius: 10px;
+}
+button[class='sfi']:hover{
+    text-shadow: none;
+    font-size: 1.5rem;
+    
+}
+/* items  */
+.nav-items{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nav-items .items{
+    border: 2px solid #d8dbad;
+    margin: 20px 15px;
+    border-radius: 16px;
+    background-color: #722d2d;
+}
+.nav-items-img{
+    width: 175px;
+    height: 120px;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+/* customers  */
+.contact{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+.contact::before{
+    position:absolute;
+    content: "";
+    z-index: -1;
+    width:100%;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF3mPGVAIWavEINuQDMCroCi9ZHvKW_hFNEQ&usqp=CAU/') no-repeat center center/cover;
+    opacity: 0.71;
+}
+.contact-items{
+    flex-wrap: wrap;
+}
+.contimg{
+    width: 125px;
+    border-radius: 8px;
+    margin: 7px 9px;
+}
+
+/* form  */
+#rwu{
+    height: 600px;
+}
+#rwu::before{
+    height: 600px;
+
+}
+#rwu-form{
+    height: 80%;
+    width: 85%;
+}
+#rwu-form label{
+    font-size: 1.0rem;
+}
+/* none */
+#rwu-form input, textarea{
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    padding: 11px;
+    border: none        ;
+    font-weight: bol;
+}
+.rwu-form-in{
+    margin:28px 0px;
+    padding: 5px;
+}
+
+/* footer  */
+footer{   
+    padding: 8px 14px;
+    font-size: 0.7rem;
+}
+/* utitity  */
+.h-primary{
+    font-size: 1.1rem;
+    padding: 2px 6px;
+    margin: 0px;
+}
+.h-secondary{
+    font-size: 1.1rem;
+    padding: 2px 4px;
+    margin: 0px 0px;
+}
